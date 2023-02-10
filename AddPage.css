@@ -1,0 +1,120 @@
+.header {
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    border: 2px solid blue;
+    margin: -8px;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px gray;
+    padding-left: 15px;
+}
+
+.ad {
+    font: normal bold;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.add-page {
+    background-color: azure;
+    margin-top: 26px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 15px;
+    padding-bottom: 25px;
+}
+
+.main-content {
+    display: flex;
+    background-color:azure;
+}
+
+.details-text {
+    padding: 20px;
+    font-size:larger;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+}
+
+.cancel-button {
+    padding-left: 500px;
+    padding-top: 30px;
+}
+
+.row-content {
+    display: flex;
+    flex-direction: row;
+    margin: 6px 126px 44px;
+    align-items: center;
+}
+
+.input {
+    width: 95%;
+    padding: 5px;
+    border-radius: 4px;
+    resize: vertical;
+    font-weight: bold;
+
+}
+
+input {
+    padding: 12px;
+}
+
+.select {
+    width: 32%;
+    padding: 12px;
+    border-radius: 4px;
+    resize: vertical;
+    font-weight: bold;
+}
+
+#name {
+    margin-top: 33px;
+}
+
+.buttonParent {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button {
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 0px;
+    color:black;
+    opacity: 1;
+    background:scroll;
+    border: none;
+    font-weight: bold;
+    min-width: 140px;
+    padding: 7px 7px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.submitButton {
+    border: none;
+    background-color:wheat;
+    margin-left: 320px;
+}
+
+.resetButton {
+    border: none;
+    background-color:beige;
+    margin-left: 30px;
+}

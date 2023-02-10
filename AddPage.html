@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AddressBookAddPage</title>
+<link rel="stylesheet" href="AddPage.css">
+</head>
+
+<body>
+<script src="AddPage.js"></script>
+<header class="header">
+<div class="image">
+<img src="addressbook.png" width="60px" alt="Address Book">
+<div>
+<span class="ad"><i>Address</i></span><br>
+<span class="ad"><i>Book</i></span>
+</div>
+</div>
+</header>
+<div class="form-content">
+<form class="add-page" action="#" onsubmit="save();return flase">
+<div class="main-content">
+<div class="details-text">Person Address Form</div>
+<a href="HomePage.html" class="cancel-button">
+<img src="sign.png" alt="" width="30px">
+</a>
+</div>
+<div class="row-content">
+<input class="input" type="text" id="name" name="name" placeholder="Your Name..." required>
+<error-output class="text-error" for="text"></error-output>
+</div>
+<div class="row-content">
+<textarea id="address" class="input" name="address" placeholder="Your Address..."></textarea>
+</div>
+<div class="row-content">
+<select class="select" id="state" name="state">
+<option>STATE</option>
+<option value="Andhra Pradesh">Andhra Pradesh</option>
+<option value="Delhi">Delhi</option>
+<option value="Karnataka">Karnataka</option>
+<option value="Kerala">Kerala</option>
+<option value="Madhya Pradesh">Madhya Pradesh</option>
+<option value="Maharashtra">Maharashtra</option>
+<option value="Tamil Nadu">Tamil Nadu</option>
+<option value="Telangana">Telangana</option>
+</select>
+<select class="select" id="city" name="city">
+<option>CITY</option>
+<option value="Erode">Erode</option>
+<option value="Chennai">Chennai</option>
+<option value="Bangalore">Bangalore</option>
+<option value="Coimbatore">Coimbatore</option>
+<option value="Pune">Pune</option>
+<option value="Bhopal">Bhopal</option>
+<option value="Hyderabad">Hyderabad</option>
+<option value="Tiruvannanthapuram">Tiruvannanthapuram</option>
+</select>
+<select class="select" id="zip" name="zip">
+<option>ZIP</option>
+<option value="123456">123456</option>
+<option value="147852">147852</option>
+<option value="741258">741258</option>
+<option value="654789">654789</option>
+<option value="852369">852369</option>
+<option value="159632">159632</option>
+<option value="357896">357896</option>
+<option value="745968">745968</option>
+</select>
+</div>
+<div class="row-content">
+<input class="input" type="number" id="phoneNumber" name="phoneNumber"
+placeholder="Your Phone Number..." required>
+</div>
+<div class="buttonParent">
+<button type="submit" class="button submitButton" id="submitButton">ADD</button>
+<!-- reset form values using form reset button instead of custom coading -->
+<button type="reset" class="resetButton button">RESET</button>
+</div>
+</form>
+</div>
+</body>
+</html>
